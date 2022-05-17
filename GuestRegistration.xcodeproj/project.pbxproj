@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BA927F232834116100CF2215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA927F222834116100CF2215 /* AppDelegate.swift */; };
 		BA927F252834116100CF2215 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA927F242834116100CF2215 /* SceneDelegate.swift */; };
-		BA927F272834116100CF2215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA927F262834116100CF2215 /* ViewController.swift */; };
 		BA927F2A2834116100CF2215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA927F282834116100CF2215 /* Main.storyboard */; };
 		BA927F2C2834116300CF2215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA927F2B2834116300CF2215 /* Assets.xcassets */; };
 		BA927F2F2834116300CF2215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA927F2D2834116300CF2215 /* LaunchScreen.storyboard */; };
+		BA927F37283413E500CF2215 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA927F36283413E500CF2215 /* Registration.swift */; };
+		BA927F392834183400CF2215 /* AddRegistrationTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA927F382834183400CF2215 /* AddRegistrationTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA927F1F2834116100CF2215 /* GuestRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuestRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA927F222834116100CF2215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA927F242834116100CF2215 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA927F262834116100CF2215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA927F292834116100CF2215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA927F2B2834116300CF2215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA927F2E2834116300CF2215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA927F302834116300CF2215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA927F36283413E500CF2215 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		BA927F382834183400CF2215 /* AddRegistrationTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				BA927F222834116100CF2215 /* AppDelegate.swift */,
 				BA927F242834116100CF2215 /* SceneDelegate.swift */,
-				BA927F262834116100CF2215 /* ViewController.swift */,
+				BA927F36283413E500CF2215 /* Registration.swift */,
+				BA927F382834183400CF2215 /* AddRegistrationTableTableViewController.swift */,
 				BA927F282834116100CF2215 /* Main.storyboard */,
 				BA927F2B2834116300CF2215 /* Assets.xcassets */,
 				BA927F2D2834116300CF2215 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA927F272834116100CF2215 /* ViewController.swift in Sources */,
 				BA927F232834116100CF2215 /* AppDelegate.swift in Sources */,
+				BA927F37283413E500CF2215 /* Registration.swift in Sources */,
 				BA927F252834116100CF2215 /* SceneDelegate.swift in Sources */,
+				BA927F392834183400CF2215 /* AddRegistrationTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
